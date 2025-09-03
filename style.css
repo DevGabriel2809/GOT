@@ -407,6 +407,7 @@ iframe {
 
     .sidebar {
     width: 250px;
+    height: 400px;
     background-color: #1f1f1f00;
     padding-top: 43px;
     padding-right: 25px;
