@@ -47,7 +47,7 @@ body {
 }
 
 .SEASONS{
-    max-height: 200px;
+    height: 200px;
     overflow-y: auto;
     padding-right: 10px;
     margin-bottom: 15px;
@@ -299,7 +299,7 @@ iframe {
         display: flex;
         flex-direction: column;
         height: 100dvh;
-        width: 100dvw;
+        width: 95dvw;
         background-size: auto;
     }
     .top-area {
@@ -319,9 +319,10 @@ iframe {
         align-items: stretch;
         padding: 10px;
         background-color: #12121200;
+        height: 370px;
 
         & .title{
-            margin-right: 100px;
+            margin-right: 20px;
         }
     }
 
@@ -332,27 +333,28 @@ iframe {
 
     .SEASONS{
         width: 40vw;
+        overflow-x: hidden;
+        height: 350px;
     }
 
     #poster{
         position: relative;
         width: 45vw;
-        height: 280px;
-        top: 55px;
-        right: 30px;
+        height: 295px;
+        top: 75px;
         background-color: #121212;
         border-radius: 10px;
         
         
         & .box{
-            height: 280px;
+            height: 295px;
             background-color: black;
             width: 45vw;
         }
         & img{
             position: relative;
             width: 100%;
-            height: 280px;
+            height: 295px;
         }
     }
 
@@ -363,6 +365,7 @@ iframe {
         max-height: fit-content;
         box-shadow: black 0px 5px 12px 4px;
         border-bottom: #085b58 1.7px solid;
+        padding: 11px;
         padding-bottom: 5px;
     }
 
